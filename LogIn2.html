@@ -1,0 +1,45 @@
+<html>
+	<head>
+	<!-- Tajuk laman -->
+	<title> LOGIN Validationm </title>
+	<!-- Include CSS File Here -->
+	<link rel="stylesheet" href="logStyle.css"/>
+	<!-- Include JS File Here -->
+	<script src="login2.js"></script>
+	</head>
+<body>
+<body style="background-color:powderblue;">
+
+	<div style="background-color:#0F0F8C; height:55px">
+		<!-- Tajuk Sistem -->
+        <CENTER><H4 style="color:#E9F7EF">SISTEM PENGURUSAN 
+		PUSAT GYM</h4 </CENTER>
+    </div>
+	
+	<!-- Container untuk form yang perlu diisi oleh pengguna -->
+	<div class="container">
+	<div class="main">
+		<!-- Tajuk borang penyemakan -->
+	<h2>Javascript Login Form Validation</h2>
+<form id="form_id" method="post" name="myform"> <br>
+	<!-- Input Nama Pengguna -->
+	<label>User Name :</label>
+	<input type="text" name="username" id="username"/>
+	<!-- Input Kata Laluan -->
+	<label>Password :</label>
+	<input type="password" name="password" id="password">
+	
+	<!-- Button LOGIN -->
+	<input type="button" value="LOGIN" id="submit" onclick="validate()"/>
+	<BR> <p>	Not a member? Please Sign Up to join.
+
+	<!-- Button DAFTAR untuk pengguna -->
+	<input type="button" value="SIGN UP" id="submit" onclick="window.location.href='FORM2_print.html'"/>
+</form>
+	<span><b class="note">Note : </b> <I> For this demo use following username and password. </I>
+	<br/><b class="valid"> ( User Name : Formget <br/> Password : formget#123 )</b></span>
+	</div>
+	</div>
+		
+</body>
+</html>
